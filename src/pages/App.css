@@ -1,0 +1,18 @@
+.App {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+.label{
+    margin: 15px;
+    width: 150px;
+}
+
+.input{
+    font-size: 20px;
+    line-height: 20px;
+}
