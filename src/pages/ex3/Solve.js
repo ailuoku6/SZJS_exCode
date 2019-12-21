@@ -7,7 +7,7 @@ const calculate = (express,x)=>{//如果该点没有值，则求临近点的值
     return isNaN(result)?calculate(express,x+inCrement):result;
 };
 
-const CompoundTrapezoid = (min,max,express)=>{
+const CompoundTrapezoid = (min,max,express)=>{//积分区间[min,max],express表达式
 
     console.log("接收表达式:",express);
     if (min>max) return NaN;
@@ -30,7 +30,7 @@ const CompoundTrapezoid = (min,max,express)=>{
     return tn;
 };
 
-const rom = (min,max,express)=>{
+const rom = (min,max,express)=>{//积分区间[min,max],express表达式
     console.log("接收表达式:",express);
     if (min>max) return NaN;
     express = express.replace('{','').replace('}','');//过滤kaTex语法的{}

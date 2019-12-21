@@ -6,7 +6,7 @@ const calculate = (express,x,y)=>{//如果该点没有值，则求临近点的�
     return isNaN(result)?calculate(express,x+inCrement,y):result;
 };
 
-const euler = (a,b,express,y0,h)=>{//区间[a,b],初值y0,步长h
+const euler = (a,b,express,y0,h)=>{//区间[a,b],express表达式,初值y0,步长h
     let result = [];
     result[0] = [];//x列表
     result[1] = [];//y列表
@@ -26,7 +26,7 @@ const euler = (a,b,express,y0,h)=>{//区间[a,b],初值y0,步长h
     return result;
 };
 
-const logeKuta = (a,b,express,y0,h)=>{
+const logeKuta = (a,b,express,y0,h)=>{//区间[a,b],express表达式,初值y0,步长h
     let result = [];
     result[0] = [];//x列表
     result[1] = [];//y列表
