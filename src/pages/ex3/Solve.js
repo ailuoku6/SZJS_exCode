@@ -33,6 +33,7 @@ const CompoundTrapezoid = (min,max,express)=>{
 const rom = (min,max,express)=>{
     console.log("接收表达式:",express);
     if (min>max) return NaN;
+    express = express.replace('{','').replace('}','');//过滤kaTex语法的{}
     let T_pre = [];
     let T_cur = [];
     let n = 1;

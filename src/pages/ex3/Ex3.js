@@ -51,7 +51,7 @@ class Ex3 extends React.Component{
                 }} />
                 <br/>
                 <label>被积函数</label>
-                <Input value={express} onChange={({ target: { value } })=>{
+                <Input style={{width:200}} value={express} onChange={({ target: { value } })=>{
                     this.setState({
                         express:value,
                         result:''
