@@ -21,6 +21,9 @@ class Home extends React.Component{
                 <Link to={'/Ex2'}>
                     <span>实验二</span>
                 </Link>
+                <Link to={'/Ex3'}>
+                    <span>实验三</span>
+                </Link>
             </div>
         )
     }

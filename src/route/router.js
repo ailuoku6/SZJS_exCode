@@ -6,6 +6,7 @@ import React from 'react';
 // import About from './pages/about';
 import Ex1 from "../pages/Ex1";
 import Ex2 from "../pages/ex2/Ex2";
+import Ex3 from "../pages/ex3/Ex3";
 import Home from "../pages/Home";
 //引入一些模块
 import { BrowserRouter as Router,Switch, Route,Redirect} from "react-router-dom";
@@ -17,6 +18,7 @@ function router(){
                 {/*<Redirect from="/" exact to="/index"/>*/}
                 <Route path="/Ex1" component={Ex1}/>
                 <Route path="/Ex2" component={Ex2}/>
+                <Route path={'/Ex3'} component={Ex3}/>
                 <Route path="/" component={Home} />
 
             </Switch>

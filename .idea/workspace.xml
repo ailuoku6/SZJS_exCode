@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a61082dc-cd02-43bd-ac81-79282fab2b16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Ex1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Solve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ex2/Ex2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ex2/Solve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/route/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ex3/Ex3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ex3/Solve.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Solve.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Solve.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/route/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/route/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +91,12 @@
       <workItem from="1574425372228" duration="5692000" />
       <workItem from="1574478044823" duration="4278000" />
       <workItem from="1574497621351" duration="2885000" />
-      <workItem from="1574501844628" duration="11678000" />
+      <workItem from="1574501844628" duration="12082000" />
+      <workItem from="1574570061157" duration="110000" />
+      <workItem from="1574575651726" duration="778000" />
+      <workItem from="1574578687133" duration="1294000" />
+      <workItem from="1576851295041" duration="8042000" />
+      <workItem from="1576893372633" duration="13480000" />
     </task>
     <servers />
   </component>
