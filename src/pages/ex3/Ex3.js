@@ -20,7 +20,7 @@ class Ex3 extends React.Component{
             max:1,
             express:'sin(x)/x',
             independentVar:'x',
-            suanfa:'',
+            suanfa:'1',
             result:''
         }
     }
@@ -60,18 +60,18 @@ class Ex3 extends React.Component{
                 <br/>
                 <InlineMath ref="input">{xianshi}</InlineMath>{this.state.result!==''&&(<span>{'='+this.state.result}</span>)}
                 <br/>
-                <Select defaultValue="Lagrange" style={{ width: 120 }} onChange={(value)=>{
+                <Select defaultValue="1" style={{ width: 120 }} onChange={(value)=>{
                     this.setState({
                         suanfa:value,
                         result:''
                     })
                 }}>
-                    <Option value="Lagrange">Lagrange</Option>
-                    <Option value="Newton">Newton</Option>
+                    <Option value="1">变步长梯形法</Option>
+                    <Option value="2">龙贝格法</Option>
                 </Select>
                 <Button onClick={()=>{
                     // let result = CompoundTrapezoid(min,max,express);
-                    let result = rom(min,max,express);
+                    let result = this.state.suanfa==='1'?CompoundTrapezoid(min,max,express):rom(min,max,express);
 
                     this.setState({
                         result:result

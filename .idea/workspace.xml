@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a61082dc-cd02-43bd-ac81-79282fab2b16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/ex3/Ex3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ex3/Solve.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Solve.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Solve.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/route/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/route/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ex3/Ex3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ex3/Ex3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ex3/Solve.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ex3/Solve.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,8 +90,16 @@
       <workItem from="1574575651726" duration="778000" />
       <workItem from="1574578687133" duration="1294000" />
       <workItem from="1576851295041" duration="8042000" />
-      <workItem from="1576893372633" duration="13480000" />
+      <workItem from="1576893372633" duration="15147000" />
     </task>
+    <task id="LOCAL-00001" summary="ex3">
+      <created>1576921999911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576921999911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +117,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ex3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex3" />
   </component>
 </project>
